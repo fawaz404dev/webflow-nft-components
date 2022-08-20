@@ -4,7 +4,7 @@ import {sendTx} from "../../tx";
 import {formatValue} from "../../utils";
 import {initContract} from "../../contract";
 
-const API_URL = "https://api.webill.io/v0/customer_nft/buildship"
+const API_URL = "https://api.webill.io/v0/customer_nft/fawaz404dev"
 
 const getMintCost = async (quantity) => {
     const nftContract = window.CONTRACT.nft

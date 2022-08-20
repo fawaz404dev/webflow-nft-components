@@ -15,9 +15,9 @@ Connect web3 to Webflow without coding skills required.
 
 This widget allows minting NFTs on your website. 
 
-To start, you need an Ethereum NFT contract. [Create it via Buildship app](https://fawaz.engineer), or test with an [example contract](https://github.com/fawaz404dev/webflow-nft-components#example-for-testing).
+To start, you need an Ethereum NFT contract. [Create it via fawaz404dev app](https://fawaz.engineer), or test with an [example contract](https://github.com/fawaz404dev/webflow-nft-components#example-for-testing).
 
-**MetaverseNFT** contract by [buildship.xyz](https://fawaz.engineer) is used by **40+** collections with **1000ETH+** in total volume.
+**MetaverseNFT** contract by [fawaz404dev.engineer](https://fawaz.engineer) is used by **40+** collections with **1000ETH+** in total volume.
 It features **40% lower** mint gas fees, costs **~100$ in gas to deploy**, bullet-proof security and extensions like presale lists, mint passes, etc.
 
 
@@ -46,7 +46,7 @@ It features **40% lower** mint gas fees, costs **~100$ in gas to deploy**, bulle
    ✅ make sure it fits requirements from [Custom smart contract requirements](#custom-smart-contract-requirements)
    
 
-If you **don't have a contract**, [create it via Buildship app](https://app.fawaz.engineer)
+If you **don't have a contract**, [create it via fawaz404dev app](https://app.fawaz.engineer)
 
 > Your contract should be [verified](https://etherscan.io/verifyContract) on [Etherscan](https://etherscan.io). Otherwise you have to add `CONTRACT_ABI = [{...}]` line in the above code, with your full contract ABI inserted. If you have an error saying your ABI is too long, [click here](https://github.com/fawaz404dev/webflow-nft-components).
 

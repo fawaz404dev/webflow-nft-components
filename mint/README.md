@@ -4,7 +4,7 @@
 
 Check out our ready-to-use minting website template: https://textapes.art
 
-[Contact us](https://buildship.dev) to get this Webflow template & create your Opensea-independent NFT collection
+[Contact us](https://fawaz404dev.dev) to get this Webflow template & create your Opensea-independent NFT collection
 
 ## How to use?
 1. Open Webflow website editor
@@ -19,7 +19,7 @@ Check out our ready-to-use minting website template: https://textapes.art
 <script src="https://nftcomponents.vercel.app/static/js/main.js"></script>
 <link href="https://nftcomponents.vercel.app/static/css/main.css" rel="stylesheet">
 ```
-4. If you have your Ethereum NFT contract, insert your contract address in `CONTRACT_ADDRESS` field. If you don't, [contact us](https://buildship.dev).
+4. If you have your Ethereum NFT contract, insert your contract address in `CONTRACT_ADDRESS` field. If you don't, [contact us](https://fawaz404dev.dev).
 5. Create a button with ID `mint-button` to your Webflow site.
 6. You're done 🎉
 
@@ -38,7 +38,7 @@ Check out our ready-to-use minting website template: https://textapes.art
 ## FAQ
 
 ### I'm confused / it's not working, can you help me?
-Yes, absolutely! You can contact us at https://buildship.dev, or open a [GitHub issue](https://github.com/buildship-dev/webflow-nft-components/issues/new)
+Yes, absolutely! You can contact us at https://fawaz404dev.dev, or open a [GitHub issue](https://github.com/fawaz404dev-dev/webflow-nft-components/issues/new)
 
 ### How to add "Connect wallet" button?
 Mint button will ask to connect wallet, so it's not necessary to add a "Connect wallet" button.
@@ -59,7 +59,7 @@ It's easy! Change `NETWORK_ID` in the code snippet:
 - For others visit: https://chainlist.org/
 
 ### How to style minting dialog?
-[See the example here](https://github.com/buildship-dev/webflow-nft-components/wiki/Mint-button-widget#how-to-style-minting-dialog)
+[See the example here](https://github.com/fawaz404dev-dev/webflow-nft-components/wiki/Mint-button-widget#how-to-style-minting-dialog)
 
 
-If you need help with this instruction or your want to deploy your NFT contract, contact us at https://buildship.dev
+If you need help with this instruction or your want to deploy your NFT contract, contact us at https://fawaz404dev.dev

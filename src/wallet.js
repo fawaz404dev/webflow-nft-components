@@ -49,7 +49,7 @@ const getWeb3ModalProviderOptions = ({
         coinbasewallet: {
             package: CoinbaseWalletSDK, // Required
             options: {
-                appName: "Buildship", // Required
+                appName: "fawaz404dev", // Required
                 rpc: "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161", // Optional if `infuraId` is provided; otherwise it's required
                 chainId: 1, // Optional. It defaults to 1 if not provided
                 darkMode: false // Optional. Use dark theme, defaults to false

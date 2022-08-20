@@ -8,7 +8,7 @@ import { showMintModal } from "./components/MintModal.js";
 import { init } from "./mint";
 import { dirtyFixConnectWalletUI } from "./utils";
 
-// Anonymous analytics for Buildship to know how many users
+// Anonymous analytics for fawaz404dev to know how many users
 const sendAnonymousAnalytics = () => {
     if (window.location.host.includes("localhost"))
         return
@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
     renderAppContainer();
     init()
 
-    // TODO: remove this when migrated to @buildship/web3-login or forked Web3Modal
+    // TODO: remove this when migrated to @fawaz404dev/web3-login or forked Web3Modal
     // Puts "custom-metamask" provider as the first option
     dirtyFixConnectWalletUI()
     sendAnonymousAnalytics()

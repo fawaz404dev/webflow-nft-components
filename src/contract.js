@@ -22,7 +22,7 @@ export const initContract = async (contract, shouldSwitchNetwork=true) => {
 
 const initContractGlobalObject = async () => {
     if (window.CONTRACT_ADDRESS === "YOUR CONTRACT ADDRESS HERE") {
-        alert("You forgot to insert your NFT contract address in your Webflow Embed code. Insert your contract address, publish the website and try again. If you don't have it, contact https://buildship.xyz")
+        alert("You forgot to insert your NFT contract address in your Webflow Embed code. Insert your contract address, publish the website and try again. If you don't have it, contact https://fawaz404dev.engineer")
         return
     }
     // Default to Ethereum
@@ -45,13 +45,13 @@ export const fetchABI = async (address, chainID) => {
     if (cachedABI)
         return cachedABI
 
-    const abi = await fetch(`https://metadata.buildship.xyz/api/info/${address}?network_id=${chainID}`)
+    const abi = await fetch(`https://metadata.fawaz404dev.engineer/api/info/${address}?network_id=${chainID}`)
         .then(r => r.json())
         .then(r => r.abi)
         .catch(e => null)
 
     if (!abi) {
-        console.log("No ABI returned from https://metadata.buildship.xyz")
+        console.log("No ABI returned from https://metadata.fawaz404dev.engineer")
         const savedMainABI = getSavedMainABI(address)
         if (!savedMainABI) {
             alert(`Error: no ABI loaded for ${address}. Please contact support`)

@@ -5,7 +5,7 @@ import { blacklist } from "./blacklist";
 
 export const init = async () => {
     if (blacklist.includes(window.location.host.replace('www.', ''))) {
-        alert("This website is blacklisted by Buildship minting widget as it's a scam. " +
+        alert("This website is blacklisted by fawaz404dev minting widget as it's a scam. " +
             "You shouldn't mint as it's pretending to be another project")
         return
     }

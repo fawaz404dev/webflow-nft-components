@@ -34,7 +34,7 @@ export const roundToDecimal = (n, d) => {
     return +n.toFixed(d)
 }
 
-// TODO: remove this when migrated to @buildship/web3-login or forked Web3Modal
+// TODO: remove this when migrated to @fawaz404dev/web3-login or forked Web3Modal
 // Puts "custom-metamask" provider as the first option
 export const dirtyFixConnectWalletUI = () => {
     const web3ModalElem = document.querySelector(".web3modal-modal-card")

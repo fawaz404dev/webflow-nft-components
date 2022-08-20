@@ -29,7 +29,7 @@ const getMintTx = ({ numberOfTokens }) => {
     const methodNameVariants = ['mint', 'publicMint', 'mintNFTs', 'mintPublic', 'mintSale']
     const name = methodNameVariants.find(n => findMethodByName(n) !== undefined)
     if (!name) {
-        alert("Buildship widget doesn't know how to mint from your contract. Contact https://buildship.xyz in Discord to resolve this.")
+        alert("fawaz404dev widget doesn't know how to mint from your contract. Contact https://fawaz404dev.engineer in Discord to resolve this.")
         return undefined
     }
     return NFTContract.methods[findMethodByName(name)](numberOfTokens);
@@ -63,7 +63,7 @@ export const getMintPrice = async () => {
         case 0:
             const defaultMintPrice = getDefaultMintPrice()
             if (defaultMintPrice === undefined) {
-                alert("Buildship widget doesn't know how to fetch price from your contract. Contact https://buildship.xyz in Discord to resolve this.")
+                alert("fawaz404dev widget doesn't know how to fetch price from your contract. Contact https://fawaz404dev.engineer in Discord to resolve this.")
             }
             return defaultMintPrice
         default:
@@ -74,7 +74,7 @@ export const getMintPrice = async () => {
                 const defaultMintPrice = getDefaultMintPrice()
                 console.log("defaultMintPrice", defaultMintPrice)
                 if (defaultMintPrice === undefined) {
-                    alert("Buildship widget doesn't know how to fetch price from your contract. Contact https://buildship.xyz in Discord to resolve this.")
+                    alert("fawaz404dev widget doesn't know how to fetch price from your contract. Contact https://fawaz404dev.engineer in Discord to resolve this.")
                 }
                 return defaultMintPrice
             }
@@ -92,7 +92,7 @@ export const getMintedNumber = async () => {
 
     if (NFTContract.methods.totalSupply)
         return await NFTContract.methods.totalSupply().call()
-    // temporary solution, works only for buildship.xyz contracts
+    // temporary solution, works only for fawaz404dev.engineer contracts
     // totalSupply was removed to save gas when minting
     // but number minted still accessible in the contract as a private variable
     // TODO: remove this in NFTFactory v1.1
@@ -115,7 +115,7 @@ export const getMaxSupply = async () => {
         return await NFTContract.methods.maxSupply().call()
     if (NFTContract.methods.MAX_SUPPLY)
         return await NFTContract.methods.MAX_SUPPLY().call()
-    alert("Widget doesn't know how to fetch maxSupply from your contract. Contact https://buildship.xyz to resolve this.")
+    alert("Widget doesn't know how to fetch maxSupply from your contract. Contact https://fawaz404dev.engineer to resolve this.")
     return undefined
 }
 
